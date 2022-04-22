@@ -20,7 +20,7 @@ struct SYM {
 };
 
 template<typename T, int size>
-TPQueue<T, size>::TPQueue() : last(-1) { arr = new T[size] }
+TPQueue<T, size>::TPQueue() : last(-1) { arr = new T[size]; }
 
 template<typename T, int size>
 T TPQueue <T, size> ::pop() {
